@@ -1,5 +1,5 @@
-DEVICE_PATH := device/qualcomm/lime
-BOARD_VENDOR := qualcomm
+DEVICE_PATH := device/xiaomi/lime
+BOARD_VENDOR := xiaomi
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-04-01
@@ -13,4 +13,4 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vendor.qti.hardware.servicetracker@1.2-se
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
 
--include vendor/qualcomm/lime/BoardConfigVendor.mk
+-include vendor/xiaomi/lime/BoardConfigVendor.mk

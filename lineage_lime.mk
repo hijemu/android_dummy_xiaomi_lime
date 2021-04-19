@@ -8,14 +8,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from lime device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := qualcomm
+PRODUCT_BRAND := xiaomi
 PRODUCT_DEVICE := lime
-PRODUCT_MANUFACTURER := qualcomm
+PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_NAME := lineage_lime
-PRODUCT_MODEL := Lime for arm64
+PRODUCT_MODEL := lime
 
-PRODUCT_GMS_CLIENTID_BASE := android-qualcomm
-TARGET_VENDOR := qualcomm
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := lime
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="qssi-user 11 RKQ1.201004.002 21.4.13 release-keys"
 
